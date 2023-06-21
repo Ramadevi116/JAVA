@@ -1,6 +1,14 @@
-## Compile --- javac filename.java --- .class file
-## Execution --- java filename  --- output
+#### Compile --- javac filename.java --- .class file
+#### Execution --- java filename  --- output
 
-## Comments : 
+#### Comments : 
+* // ----> Single line comments
+* /*
 
+  
+  */ -----> Multi line comments
+* /**
+
+
+ */  ---->Documentation comments
 
