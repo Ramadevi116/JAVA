@@ -13,7 +13,7 @@
   }
   ```
 * switch
-* ```java
+```java
 switch(expression){
     case value 1:
         stm 1;
