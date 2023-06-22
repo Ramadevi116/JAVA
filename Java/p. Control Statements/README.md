@@ -23,6 +23,7 @@ switch(expression){
         break;
     default:
         stm 3;
+}
   ```
 ### Iteration statement:
 * for
