@@ -1,0 +1,30 @@
+```java
+class Person{
+    private String fname;
+    private String lname;
+    public String getFname(){
+        return fname;
+    }
+    public void setFname(String name){
+        this.fname=name;
+    }
+     public String getLname(){
+        return lname;
+    }
+    public void setLname(String name){
+        this.lname=name;
+    }
+    public String toString(){
+        return fname+lname;
+    }
+}
+class Main{
+    public static void main(String[] args){
+        Person nam = new Person();
+        nam.setFname("rama ");
+        nam.setLname("devi");
+        System.out.println("my name is "+nam.toString());
+        
+    }
+}
+```
