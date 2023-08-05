@@ -1,4 +1,3 @@
-```java
 class Person{
     private String fname;
     private String lname;
@@ -25,6 +24,5 @@ class Main{
         nam.setLname("devi");
         System.out.println("my name is "+nam.toString());
         
-    }
 }
-```
+}
