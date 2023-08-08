@@ -1,0 +1,29 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        System.out.println("amoung 3 numbers...");
+        smallest obj= new smallest();
+        obj.small();
+        System.out.println("amoung 3 numbers...");
+        largest obj1=new largest();
+        obj1.large();
+    }
+}
+class smallest{
+    void small(){
+        Scanner in= new Scanner(System.in);
+        int x= in.nextInt();
+        int y= in.nextInt();
+        int z= in.nextInt();
+        System.out.println("smallest num "+Math.min(Math.min(x,y),z));
+    }
+}
+class largest{
+    void large(){
+        Scanner in= new Scanner(System.in);
+        int x= in.nextInt();
+        int y= in.nextInt();
+        int z= in.nextInt();
+        System.out.println("largest num "+Math.max(Math.max(x,y),z));
+    }
+}
